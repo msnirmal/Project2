@@ -1,0 +1,10 @@
+.{
+    padding: 0;
+    margin: 0;
+}
+.quiz-box {
+    border: 2px solid;
+    border-radius: 10px;
+    width: 50%;
+    height: 70%;
+}
