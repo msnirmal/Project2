@@ -1,14 +1,21 @@
 const animalImages = [
     {
         Image: "assets/images/imageone.jpg",
-        Answer: "Elephant"
+        correct: "Elephant"
     },
     {
         Image: "assets/images/imagetwo.jpg",
-        Answer: "Elephant"
+        correct: "Lion"
     },
     {
         Image: "assets/images/imagethree.jpg",
-        Answer: "Elephant" 
+        correct: "Tiger" 
     }
 ]
+
+//** Define variables for all DOM elements */
+const quizArea = document.getElementById('quiz-area')
+const heading = document.getElementById('heading')
+const quizImages = document.getElementById('quiz-images')
+const userGuess = document.getElementById('guess')
+const submitButton = document.getElementById('submit')
