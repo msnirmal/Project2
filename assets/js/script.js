@@ -19,3 +19,13 @@ const heading = document.getElementById('heading')
 const quizImages = document.getElementById('quiz-images')
 const userGuess = document.getElementById('guess')
 const submitButton = document.getElementById('submit')
+
+let currentIndex = 0
+let score = 0
+launchQuiz()
+
+function launchQuiz() {
+    quizImages = animalImages[currentIndex].Image
+    userGuess = ""
+}
+
