@@ -25,7 +25,10 @@ let score = 0
 launchQuiz()
 
 function launchQuiz() {
-    quizImages = animalImages[currentIndex].Image
-    userGuess = ""
-}
+    quizImages.src = animalImages[currentIndex].Image
+    userGuess.ariaValueText= ""
+    currentIndex++
+    }
+
+
 
