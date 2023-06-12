@@ -62,6 +62,7 @@ const animalImages = [
   const correctAnswer = animalImages[currentIndex].correct.toLowerCase();
   if (userAnswer === correctAnswer) {
     score++; 
+    document.getElementById('submit').disabled = true
     document.getElementById("score").textContent = `You've scored : ${score} out of ${animalImages.length}`;
     document.getElementById("answer-result").textContent = "Yayy!! That's correct, click 'Next'";
     } else {
@@ -75,6 +76,7 @@ const animalImages = [
 
   function nextImage() {
     currentIndex++;
+    document.getElementById('submit').removeAttribute('disabled')
     document.getElementById("answer-result").textContent = "";
     if (currentIndex === animalImages.length) {
       document.getElementById("answer-result").textContent = "End of Quiz, click 'Reload'";
