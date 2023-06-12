@@ -31,11 +31,17 @@ body{
     margin-top: 0;
     margin-bottom: 15px;
   }
+
+  .result {
+    padding-top: 20px;
+     
+  }
   
   #guess{
-    width: 100px;
+    width: 250px;
     height: 20px;
-    font-size: inherit;
+    font-size: medium;
+     
   }
   
   #submit{
