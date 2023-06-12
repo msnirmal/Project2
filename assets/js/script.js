@@ -1,43 +1,55 @@
 const animalImages = [
     {
-        Image: "assets/images/imageone.jpg",
-        correct: "Elephant"
+    questionimage: "assets/images/imageone.jpg",
+    correct: "Elephant"
+    },
+    { 
+    questionimage: "assets/images/imagetwo.jpg", 
+    correct: "Lion"
     },
     {
-        Image: "assets/images/imagetwo.jpg",
-        correct: "Lion"
-    },
-    {
-        Image: "assets/images/imagethree.jpg",
-        correct: "Tiger" 
+    questionimage: "assets/images/imagethree.jpg",
+    correct: "Tiger"
     }
-]
-
-let currentIndex = 0
-let score = 0
-launchQuiz()
-
-function launchQuiz() {
-    document.getElementById.src = animalImages[currentIndex].Image;
-    document.getElementById('guess').ariaValueText= "";
+    ] 
+  
+  // Define variables for the game
+  let currentIndex = 0;
+  let score = 0;
+  
+  // Display the current riddle and reset the input field
+  function showquiz() {
+  document.getElementById("quiz-image").src = animalImages[currentIndex].questionimage;
+  document.getElementById("guess").value = "";
+  }
+  
+  // Check the user's answer and update the score and hint
+  function checkAnswer() {
+  const userAnswer = document.getElementById("guess").value.toLowerCase();
+  const correctAnswer = animalImages[currentIndex].correct.toLowerCase();
+  if (userAnswer === correctAnswer) {
+    score++; 
+    document.getElementById("score").textContent = `Score: ${score}/${animalImages.length}`;
+    document.getElementById("answer-result").textContent = "That was correct!";
+    } else {
+    document.getElementById("answer-result").textContent = "Incorrect.";
     }
-
-    function checkAnswer() {      
-        const userGuess = document.getElementById("guess").value.toLowerCase();
-        const correctAnswer = animalImages[currentIndex].correct.toLowerCase();   
-        if (userGuess === correctAnswer) {
-          score++;
-          document.getElementById("score").textContent = `Score: ${score}/${qImages.length}`;
-          document.getElementById("answer-result").textContent = "That was correct!";
-          currentIndex++;
-          } else {
-          document.getElementById("answer-result").textContent = "Incorrect.";
-          }
-        }
-
-        showquiz();
-        document.getElementById("score").textContent = `Score: ${score}`;
-
-
-
-
+  }
+  
+  function nextImage() {
+    currentIndex++;
+    document.getElementById("answer-result").textContent = "";
+    if (currentIndex === animalImages.length) {
+      alert("End of Game, refresh page to restart");
+    } else {
+      showquiz();
+    }
+  }
+  
+  function reloadQuiz(){
+    window.location.reload();
+  }
+  
+  // Initialize the game
+  showquiz();
+  document.getElementById("score").textContent = `Score: ${score}`;
