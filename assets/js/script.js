@@ -80,6 +80,7 @@ const animalImages = [
     document.getElementById("answer-result").textContent = "";
     if (currentIndex === animalImages.length) {
       document.getElementById("answer-result").textContent = "End of Quiz, click 'Reload'";
+      document.getElementById('next').disabled = true
     } else {
       showquiz();
     }
