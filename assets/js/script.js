@@ -14,32 +14,33 @@ const animalImages = [
 ]
 
 //** Define variables for all DOM elements */
-const quizArea = document.getElementById('quiz-area')
-const heading = document.getElementById('heading')
-const quizImages = document.getElementById('quiz-images')
-const userGuess = document.getElementById("guess").value.toLowerCase();
-const correctAnswer = qImages[currentIndex].correct.toLowerCase();
-const submitButton = document.getElementById('submit')
+const quizArea = document.getElementById('quiz-area');
+const quizImages = document.getElementById('quiz-images');
 
 let currentIndex = 0
 let score = 0
 launchQuiz()
 
 function launchQuiz() {
-    quizImages.src = animalImages[currentIndex].Image
-    userGuess.ariaValueText= ""
+    quizImages.src = animalImages[currentIndex].Image;
+    userGuess.ariaValueText= "";
     }
 
-    function checkAnswer() {         
-        if (userGuess.value.toLowerCase(); === correctAnswer.correct.toLowerCase();) {
+    function checkAnswer() {      
+        const userGuess = document.getElementById("guess").value.toLowerCase();
+        const correctAnswer = animalImages[currentIndex].correct.toLowerCase();   
+        if (userGuess === correctAnswer) {
           score++;
           document.getElementById("score").textContent = `Score: ${score}/${qImages.length}`;
           document.getElementById("answer-result").textContent = "That was correct!";
+          currentIndex++;
           } else {
           document.getElementById("answer-result").textContent = "Incorrect.";
           }
         }
-}
+        showquiz();
+        document.getElementById("score").textContent = `Score: ${score}`;
+
 
 
 
