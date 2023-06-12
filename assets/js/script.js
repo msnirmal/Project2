@@ -13,17 +13,13 @@ const animalImages = [
     }
 ]
 
-//** Define variables for all DOM elements */
-const quizArea = document.getElementById('quiz-area');
-const quizImages = document.getElementById('quiz-images');
-
 let currentIndex = 0
 let score = 0
 launchQuiz()
 
 function launchQuiz() {
-    quizImages.src = animalImages[currentIndex].Image;
-    userGuess.ariaValueText= "";
+    document.getElementById.src = animalImages[currentIndex].Image;
+    document.getElementById('guess').ariaValueText= "";
     }
 
     function checkAnswer() {      
@@ -38,6 +34,7 @@ function launchQuiz() {
           document.getElementById("answer-result").textContent = "Incorrect.";
           }
         }
+
         showquiz();
         document.getElementById("score").textContent = `Score: ${score}`;
 

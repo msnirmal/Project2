@@ -8,18 +8,20 @@
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>  
-    <div id="quiz-area">
-    <div>
-    <h2 id="heading">Guess the Animal!</h2>
-    </div>
-    <div>
-     <img src="assets/images/background_img.jpg" alt="QuizImages" id="quiz-images">
-    </div>    
-    <input type="text" id="guess" placeholder="Enter the Answer here">
-    </div>
-    <button id="submit" onclick="checkAnswer()">Submit</button>
-    <button id="next" onclick="nextImage()">Next</button>
-    </div>    
-    <script src="assets/js/script.js"></script>
+    <div class="quiz-box" id="quiz">
+        <div class="header">
+        <h2 id="heading">Guess the animal!!</h2> 
+        <div id="question">
+         <img id= "quiz-image" src="assets/images/background_img.jpg" alt="question-images">
+        </div>
+        <input type="text" id="guess" placeholder="Enter Answer">
+        <p id="score">Score: 0</p>
+        <span id="answer-result"></span>
+        </div>
+        <button id="submit" onclick="checkAnswer()">Submit</button>
+        <button id="next" onclick="nextImage()">Next</button>
+        <button id="reload" onclick="reloadQuiz()">Reload</button>  
+        </div>  
+        <script src="assets/js/script.js"></script>
 </body>
 </html>
