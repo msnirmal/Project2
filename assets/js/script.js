@@ -66,6 +66,8 @@ const animalImages = [
     document.getElementById("score").textContent = `You've scored : ${score} out of ${animalImages.length}`;
     document.getElementById("answer-result").textContent = "Yayy!! That's correct, click 'Next'";
     } else {
+    document.getElementById('submit').disabled = true
+    document.getElementById("score").textContent = `You've scored : ${score} out of ${animalImages.length}`;
     document.getElementById("answer-result").textContent = "Oops!! That's incorrect, click 'Next'";
     } if (userAnswer === ""){
       document.getElementById("answer-result").textContent = "Enter your answer to score";
