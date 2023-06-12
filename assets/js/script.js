@@ -2,7 +2,7 @@ const animalImages = [
     {
     questionimage: "assets/images/imageone.jpg",
     correct: "Elephant"
-    },
+    }, 
     { 
     questionimage: "assets/images/imagetwo.jpg", 
     correct: "Lion"
@@ -10,7 +10,35 @@ const animalImages = [
     {
     questionimage: "assets/images/imagethree.jpg",
     correct: "Tiger"
-    }
+    },
+    {
+    questionimage: "assets/images/imagefour.jpg",
+    correct: "Elephant"
+    }, 
+    {
+    questionimage: "assets/images/imagefive.jpg",
+    correct: "Elephant"
+    }, 
+    {
+    questionimage: "assets/images/imagesix.jpg",
+    correct: "Elephant"
+    }, 
+    {
+    questionimage: "assets/images/imageseven.jpg",
+    correct: "Elephant"
+    }, 
+    {
+    questionimage: "assets/images/imageeight.jpg",
+    correct: "Elephant"
+    }, 
+    {
+    questionimage: "assets/images/imagenine.jpg",
+    correct: "Elephant"
+    }, 
+    {
+    questionimage: "assets/images/imageten.jpg",
+    correct: "Elephant"
+    }, 
     ] 
   
   // Define variables for the game
