@@ -189,7 +189,22 @@ The technologies i have used to create this website are as below-
    ![](assets/docs/images/HTMLValidation.JPG)
    ![](assets/docs/images/CSSValidation.JPG)
 
-   ## **Javascript code quality check on JSHint**
+   ### **Javascript code quality check on JSHint**
+   ---
+
 
    ![](assets/docs/images/JSHint.JPG)    
    
+   ## Deployment
+---
+
+I deployed this website by using GitPages and following the below steps:
+
+*GitHub pages deployment* 
+
+1. Log in to GitHub
+2. In your Repository section, select the project repository that you want to deploy
+3. In the menu located at the top of this section, click 'Settings'
+4. Select 'Git hub Pages' on the left-hand side menu
+5. In the source section, select branch 'main' and save
+6. The page then gives a URL, which in the case of this website is  https://msnirmal.github.io/Portfolio1/
