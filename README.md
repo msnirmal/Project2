@@ -178,3 +178,18 @@ The technologies i have used to create this website are as below-
        I have added a code to my functions with a comment to let the user know, they have entered a value 
 
    3. I have come across some responsive issues and working to fix that
+
+   ### **HTML and CSS Validation**
+   ---
+
+   I have validated both HTML and CSS codes and no errors found  
+
+   Screenshots below:
+
+   ![](assets/docs/images/HTMLValidation.JPG)
+   ![](assets/docs/images/CSSValidation.JPG)
+
+   ## **Javascript code quality check on JSHint**
+
+   ![](assets/docs/images/JSHint.JPG)    
+   
