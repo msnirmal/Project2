@@ -81,4 +81,36 @@ While creating a draft for this website and during the building process, i used 
 
 The overall background of this website is Yellow with white background for quiz area, keeping in mind the colors of the images and the button colors i have used 
 
+## **Features**
+---
+
+This website is designed with an intent to encourage users to test their knowledge on animals, it is responsive and has eye catching images of animals in their natural habitat that would enagage the users to explore more. The website is simple, easy to use and meant for purpose with no overwhelming information. 
+
+### *Header*
+
+The header has a basic text that indeed is self explanatory on what's expected off the users 
+
+### *Controls*
+
+The Submit button allows users to submit their answer once they have entered in the text box adjacent to it and the text popping with result point them to clicking Next. Submit button is then disabled 
+
+The Next button when clicked loads the next image and is disabled when the quiz ends
+
+Reload button helps users to reload the quiz
+
+
+
+### *Quiz area*
+
+The quiz area is divided in to 8 sections. 
+
+First section is the header to guess the animals  
+Second section is the animal image 
+Third section is the text box to enter user answer 
+Fourth section is the submit button 
+Fifth section displays the score 
+Sixth section displays the result (correct or incorrect)
+Seventh section is the next button 
+Eight section is the reload button 
+
 
