@@ -113,4 +113,23 @@ Sixth section displays the result (correct or incorrect)
 Seventh section is the next button 
 Eight section is the reload button 
 
+## Technologies Used ---
+
+The technologies i have used to create this website are as below-
+
+- [Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+    - Used for the interactivity of the website
+- [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
+    - Used as the basic building block for the project and to structure the content.
+- [CSS](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/CSS_basics)
+    - Used to style all the web content across the project. 
+- [Font Awesome](https://fontawesome.com/)
+    - Used to obtain the next and reload icons for next and reload buttons 
+- [Google Developer Tools](https://developers.google.com/web/tools/chrome-devtools)
+    - Used as a primary method of fixing spacing issues, finding bugs, and testing responsiveness across the project.
+- [GitHub](https://github.com/)
+    - Used to store code for the project after being pushed.
+- [Gitpod](https://www.gitpod.io/)
+    - Used as the development environment.
+
 
