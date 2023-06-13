@@ -2,6 +2,8 @@
 
 [Visit the website here](https://msnirmal.github.io/Project2/) 
 
+![](assets/docs/images/responsive.JPG)
+
 This website is created for animal lovers and is for users of over 15 and above, however, under 15's can still use with parental guidance and permission to use electronics 
 
 This website is made up of the following sections:
@@ -90,6 +92,8 @@ This website is designed with an intent to encourage users to test their knowled
 
 The header has a basic text that indeed is self explanatory on what's expected off the users 
 
+![](assets/docs/images/header.JPG)
+
 ### *Controls*
 
 The Submit button allows users to submit their answer once they have entered in the text box adjacent to it and the text popping with result point them to clicking Next. Submit button is then disabled 
@@ -98,7 +102,7 @@ The Next button when clicked loads the next image and is disabled when the quiz 
 
 Reload button helps users to reload the quiz
 
-
+![](assets/docs/images/controls.JPG)
 
 ### *Quiz area*
 
@@ -112,6 +116,8 @@ Fifth section displays the score
 Sixth section displays the result (correct or incorrect)
 Seventh section is the next button 
 Eight section is the reload button 
+
+![](assets/docs/images/quizarea.JPG)
 
 ## Technologies Used 
 
