@@ -113,7 +113,7 @@ Sixth section displays the result (correct or incorrect)
 Seventh section is the next button 
 Eight section is the reload button 
 
-## Technologies Used ---
+## Technologies Used 
 
 The technologies i have used to create this website are as below-
 
@@ -132,4 +132,43 @@ The technologies i have used to create this website are as below-
 - [Gitpod](https://www.gitpod.io/)
     - Used as the development environment.
 
+    ## Testing 
+---
 
+### *User Stories*
+
+1. **As a first-time visitor, I want an interactive quiz site that is simple and easy to use**
+
+   The page is made simple keeping in mind users of all age group. As soon as a user launches the page, they can see the quiz area prompting them to guess the animal 
+
+2. **As a first-time visitor, I want to easily navigate through the various questions involved in the quiz**
+
+   The User can easily click the next button to move to next image at their convenience as they are not timed 
+
+3. **As a first-time visitor, I want to be able to test my knowledge on animals and i want to know when the quiz has ended and what my total score is out of the total no. of questions**
+
+   The users have a considerable amount of quiz images to take a tour of the animal world and once the quiz has ended, there's a message that prompts them that they are done and what their final score is
+
+4. **As a first-time visitor, i want the quiz to be self explanatory, rather than having to go through multiple paragraphs of instructions and buttons leading to various other pages and finding my way back**
+
+    The website is designed as simple, so that a school going kid can easily understand, what is expected off them to play the quiz. There's no need to go through multiple pages and several paragraph of instructions 
+
+5. **As a first time, i want the quiz to prompt if i am correct or incorrect**
+
+   I have incuded a section that increments the score for all correct answers as a user traverses through the quiz 
+
+6. **As a first time visitor, i want to be able to easily reload the quiz when it has ended or i want to intentionaly pause and launch from the beginning**
+
+   To the bottom left hand corner of the website i have included reload button with an icon to relaunch the quiz 
+
+   While testing i came across a few bugs as mentioned below- 
+
+   1. **Entering correct answer and clicking the submit button more than once was incrementing the score**
+
+       I have added code to my javascript function to disable the submit button after the first click
+
+   2. **if answer is blank and the user clicks submit validation needs to be done**
+
+       I have added a code to my functions with a comment to let the user know, they have entered a value 
+
+   3. I have come across some responsive issues and working to fix that
