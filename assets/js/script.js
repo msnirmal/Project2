@@ -98,8 +98,6 @@ const animalImages = [
 
   //** start the quiz */
   showquiz();
-  checkAnswer();
-  nextImage();
-  reloadQuiz();
+  
 
   

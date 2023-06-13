@@ -10,8 +10,8 @@ body{
 .quiz-area {
     border: 2px solid;
     border-radius: 10px;
-    width: 600px;
-    height: 450px;
+    width: 500px;
+    height: 400px;
     align-items: center;
     justify-content: center;
     display: flex;
