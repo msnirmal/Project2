@@ -1,7 +1,7 @@
 //** Array of animal images and correct answers */
 
 const animalImages = [
-    {
+    { 
     questionimage: "assets/images/imageone.jpg",
     correct: "Elephant"
     }, 
@@ -41,7 +41,7 @@ const animalImages = [
     questionimage: "assets/images/imageten.jpg",
     correct: "Monkey"
     }, 
-    ] 
+    ];
   
   // Define variables   
 
@@ -62,11 +62,11 @@ const animalImages = [
   const correctAnswer = animalImages[currentIndex].correct.toLowerCase();
   if (userAnswer === correctAnswer) {
     score++; 
-    document.getElementById('submit').disabled = true
+    document.getElementById('submit').disabled = true;
     document.getElementById("score").textContent = `You've scored : ${score} out of ${animalImages.length}`;
     document.getElementById("answer-result").textContent = "Yayy!! That's correct, click 'Next'";
     } else {
-    document.getElementById('submit').disabled = true
+    document.getElementById('submit').disabled = true;
     document.getElementById("score").textContent = `You've scored : ${score} out of ${animalImages.length}`;
     document.getElementById("answer-result").textContent = "Oops!! That's incorrect, click 'Next'";
     } if (userAnswer === ""){
@@ -78,11 +78,11 @@ const animalImages = [
 
   function nextImage() {
     currentIndex++;
-    document.getElementById('submit').removeAttribute('disabled')
+    document.getElementById('submit').removeAttribute('disabled');
     document.getElementById("answer-result").textContent = "";
     if (currentIndex === animalImages.length) {
       document.getElementById("answer-result").textContent = "End of Quiz, click 'Reload'";
-      document.getElementById('next').disabled = true
+      document.getElementById('next').disabled = true;
     } else {
       showquiz();
     }
@@ -98,4 +98,8 @@ const animalImages = [
 
   //** start the quiz */
   showquiz();
+  checkAnswer();
+  nextImage();
+  reloadQuiz();
+
   
