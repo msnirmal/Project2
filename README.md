@@ -217,3 +217,8 @@ I deployed this website by using GitPages and following the below steps:
 * I have been watching some youtube videos like coding with nick to understand how a quiz website is generally designed 
 
 * I have also referred to w3schools (https://www.w3schools.com/), stackoverflow (https://stackoverflow.com/), coding ninja (https://www.codingninjas.com/) and coding artist (https://codingartistweb.com/), while working to sort the interactivity of various sections of the website 
+
+## Acknowledgements 
+---
+
+Thanks to my mentor Harry Dhillon for the support and sharing his thoughts 
