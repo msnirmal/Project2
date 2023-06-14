@@ -207,4 +207,13 @@ I deployed this website by using GitPages and following the below steps:
 3. In the menu located at the top of this section, click 'Settings'
 4. Select 'Git hub Pages' on the left-hand side menu
 5. In the source section, select branch 'main' and save
-6. The page then gives a URL, which in the case of this website is  https://msnirmal.github.io/Portfolio1/
+6. The page then gives a URL, which in the case of this website is  https://msnirmal.github.io/Project2/
+
+## Credits
+---
+
+* I have taken ideas from peers and their design during the intial phase of planning the structure. Apart from that i have followed the love math walk through project to get an idea how the look and feel should be 
+
+* I have been watching some youtube videos like coding with nick to understand how a quiz website is generally designed 
+
+* I have also referred to w3schools (https://www.w3schools.com/), stackoverflow (https://stackoverflow.com/), coding ninja (https://www.codingninjas.com/) and coding artist (https://codingartistweb.com/), while working to sort the interactivity of various sections of the website 
