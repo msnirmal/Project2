@@ -72,7 +72,9 @@ const animalImages = [
     document.getElementById("score").innerText = `You've scored : ${score} out of ${animalImages.length}`;
   } if (userGuess === ""){
       document.getElementById("result").innerText = "Enter your answer to score";
-    } 
+      document.getElementById('submit').removeAttribute('disabled');
+    }       
+    
   }
   
   //** Function to load the next image/question */
