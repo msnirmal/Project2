@@ -48,12 +48,12 @@ const animalImages = [
   let currentIndex = 0;
   let score = 0;
   
-  // Display the current riddle and reset the input field
+  // Display the quiz and reset the input field
 
   function showquiz() {
   document.getElementById("quiz-image").src = animalImages[currentIndex].questionimage;
   document.getElementById("guess").value = "";
-  alert(instructions)
+   
   }
   
   //** Validate user answer against correct answer and update score */
@@ -97,7 +97,6 @@ const animalImages = [
 
   }
 
-  //** start the quiz */
   showquiz();
   
 
