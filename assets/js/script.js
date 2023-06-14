@@ -59,19 +59,19 @@ const animalImages = [
   //** Validate user answer against correct answer and update score */
 
   function checkAnswer() {
-  const userAnswer = document.getElementById("guess").value.toLowerCase();
+  const userGuess = document.getElementById("guess").value.toLowerCase();
   const correctAnswer = animalImages[currentIndex].correct.toLowerCase();
-  if (userAnswer === correctAnswer) {
+  if (userGuess === correctAnswer) {
     score++; 
     document.getElementById('submit').disabled = true;
-    document.getElementById("score").textContent = `You've scored : ${score} out of ${animalImages.length}`;
-    document.getElementById("answer-result").textContent = "Yayy!! That's correct, click 'Next'";
+    document.getElementById("score").innerText = `You've scored : ${score} out of ${animalImages.length}`;
+    document.getElementById("result").innerText = "Yayy!! That's correct, click 'Next'";
     } else {
     document.getElementById('submit').disabled = true;
-    document.getElementById("score").textContent = `You've scored : ${score} out of ${animalImages.length}`;
-    document.getElementById("answer-result").textContent = "Oops!! That's incorrect, click 'Next'";
-    } if (userAnswer === ""){
-      document.getElementById("answer-result").textContent = "Enter your answer to score";
+    document.getElementById("result").innerText = "Oops!! That's incorrect, click 'Next'";
+    document.getElementById("score").innerText = `You've scored : ${score} out of ${animalImages.length}`;
+  } if (userGuess === ""){
+      document.getElementById("result").innerText = "Enter your answer to score";
     } 
   }
   
@@ -80,10 +80,11 @@ const animalImages = [
   function nextImage() {
     currentIndex++;
     document.getElementById('submit').removeAttribute('disabled');
-    document.getElementById("answer-result").textContent = "";
+    document.getElementById("result").innerText = "";
     if (currentIndex === animalImages.length) {
-      document.getElementById("answer-result").textContent = "End of Quiz, click 'Reload'";
+      document.getElementById("result").innerText = "End of Quiz, click 'Reload'";
       document.getElementById('next').disabled = true;
+      document.getElementById('submit').disabled = true;
     } else {
       showquiz();
     }
@@ -92,8 +93,8 @@ const animalImages = [
   //** Function to reload quiz */
   function reloadQuiz(){
     window.location.reload();
-    document.getElementById("score").textContent = "";
-    document.getElementById("answer-result").textContent = "";
+    document.getElementById("score").innerText = "";
+    document.getElementById("result").innerText = "";
 
   }
 
