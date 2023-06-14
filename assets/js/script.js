@@ -53,6 +53,7 @@ const animalImages = [
   function showquiz() {
   document.getElementById("quiz-image").src = animalImages[currentIndex].questionimage;
   document.getElementById("guess").value = "";
+  alert(instructions)
   }
   
   //** Validate user answer against correct answer and update score */
