@@ -2,7 +2,7 @@
 
 [Visit the website here](https://msnirmal.github.io/Project2/) 
 
-![](assets/docs/images/responsive.JPG)
+![](docs/images/responsive.JPG)
 
 This website is created for animal lovers and is for users of over 15 and above, however, under 15's can still use with parental guidance and permission to use electronics 
 
@@ -92,7 +92,7 @@ This website is designed with an intent to encourage users to test their knowled
 
 The header has a basic text that indeed is self explanatory on what's expected off the users 
 
-![](assets/docs/images/header.JPG)
+![](docs/images/header.JPG)
 
 ### *Controls*
 
@@ -102,7 +102,7 @@ The Next button when clicked loads the next image and is disabled when the quiz 
 
 Reload button helps users to reload the quiz
 
-![](assets/docs/images/controls.JPG)
+![](docs/images/controls.JPG)
 
 ### *Quiz area*
 
@@ -117,7 +117,7 @@ Sixth section displays the result (correct or incorrect)
 Seventh section is the next button 
 Eight section is the reload button 
 
-![](assets/docs/images/quizarea.JPG)
+![](docs/images/quizarea.JPG)
 
 ## Technologies Used 
 
@@ -186,14 +186,14 @@ The technologies i have used to create this website are as below-
 
    Screenshots below:
 
-   ![](assets/docs/images/HTMLValidation.JPG)
-   ![](assets/docs/images/CSSValidation.JPG)
+   ![](docs/images/HTMLValidation.JPG)
+   ![](docs/images/CSSValidation.JPG)
 
    ### **Javascript code quality check on JSHint**
    ---
 
 
-   ![](assets/docs/images/JSHint.JPG)    
+   ![](docs/images/JSHint.JPG)    
    
    ## Deployment
 ---
