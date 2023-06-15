@@ -56,7 +56,7 @@ const animalImages = [
    
   }
   
-  //** Validate user answer against correct answer and update score */
+  //** Validate user answer against correct answer and update score * idea taken from one of the peer project on riddle/
 
   function checkAnswer() {
   const userGuess = document.getElementById("guess").value.toLowerCase();
@@ -99,7 +99,6 @@ const animalImages = [
     document.getElementById("result").innerText = "";
 
   }
-
   showquiz();
   
 
