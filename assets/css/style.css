@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Vollkorn&display=swap');
+
 body{ 
     display: flex;
     flex-direction: column; 
@@ -22,10 +24,12 @@ body{
     text-align: center;
     box-shadow: 7px 7px 8px 8px gray;
     background-color: whitesmoke;
+    
 }
  
 .header{
     margin-top: 0;
+    font-family: vollkorn;
       
   }
 
@@ -36,13 +40,17 @@ body{
 
   .result {
     padding-top: 5px;
+    font-family: Poppins;
+    font-size: small;
      
   }
   
   #guess{
     width: 250px;
     height: 20px;
-    font-size: medium;
+    font-size: small;
+    font-family: Poppins;
+     
      
   }
   
@@ -51,6 +59,7 @@ body{
     height: 27px;
     background-color: #5bccf6;
     border-radius: 5px;
+        
   }
      
   #next{
@@ -60,6 +69,7 @@ body{
     border-radius: 5px;
     margin-left: 50px;
     margin-right: 10px;
+     
 }
 
   #reload{
@@ -68,7 +78,8 @@ body{
     background-color: #5bccf6;
     border-radius: 5px;
     margin-right: 50px;
-    margin-left: 10px;    
+    margin-left: 10px; 
+       
     
   }
 
