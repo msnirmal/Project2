@@ -191,11 +191,12 @@ The technologies i have used to create this website are as below-
 
    ### **Javascript code quality check on JSHint**
    ---
-
+   
+   Note: The unused variables are called in the HTML file and i am aware of the issue and it is in fact resolved.
 
    ![](docs/images/JSHint.JPG)    
    
-   ## Deployment
+## Deployment
 ---
 
 I deployed this website by using GitPages and following the below steps:
@@ -209,10 +210,31 @@ I deployed this website by using GitPages and following the below steps:
 5. In the source section, select branch 'main' and save
 6. The page then gives a URL, which in the case of this website is  https://msnirmal.github.io/Project2/
 
+### Forking the GitHub Repository
+
+* Image for the following steps
+
+To make a copy or "fork" the original repository to view or make changes without affecting the original repository,
+
+1. Log into GitHub and locate the repository.
+2. Select the "Fork" option at the top of the screen to create a copy of the repository.
+3. This will create a copy of the repository in your GitHub account.
+
+### Creating a Local Clone
+
+* Image for the following steps
+
+1. In the GitHub repository, select the "Code" button.
+2. In the "Clone" box, under the "HTTPS" tab, click on the clipboard icon to copy the URL.
+3. In Gitpod, change the current working directory to the location you would like the cloned directory 
+   to be created.
+4. Type "git clone" and then paste the URL copied from GitHub.
+5. Press "Enter" and the local clone will be created.
+
 ## Credits
 ---
 
-* I have taken ideas from peers and their design during the intial phase of planning the structure. Apart from that i have followed the love math walk through project to get an idea how the look and feel should be 
+* I have taken ideas/ inspiration from peers and their design during the planning phase. Apart from that i have followed the love math walk through project to get an idea how the look and feel should be 
 
 * I have been watching some youtube videos like coding with nick to understand how a quiz website is generally designed 
 
