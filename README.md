@@ -77,7 +77,7 @@ This is a single page website that includes quiz area, inside which there's quiz
 
 ### **Skeletal**
 
-While creating a draft for this website and during the building process, i used different background colors, however, i felt the images that i have used will contrast well with a white background for quiz area and rest of body has yellow to contrast with the neon blue buttons. 
+While creating a draft for this website and during the building process, i used different background colors, however, i felt the images that i have used will contrast well with a white background for quiz area and rest of body has yellow to contrast with the neon blue buttons. Also, i have used font Vollkorn for header and Poppins for the text content in quiz area with default browser font for button 
 
 ### **Surface**
 
