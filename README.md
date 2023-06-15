@@ -212,8 +212,6 @@ I deployed this website by using GitPages and following the below steps:
 
 ### Forking the GitHub Repository
 
-* Image for the following steps
-
 To make a copy or "fork" the original repository to view or make changes without affecting the original repository,
 
 1. Log into GitHub and locate the repository.
@@ -221,8 +219,6 @@ To make a copy or "fork" the original repository to view or make changes without
 3. This will create a copy of the repository in your GitHub account.
 
 ### Creating a Local Clone
-
-* Image for the following steps
 
 1. In the GitHub repository, select the "Code" button.
 2. In the "Clone" box, under the "HTTPS" tab, click on the clipboard icon to copy the URL.
