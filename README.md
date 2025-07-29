@@ -230,8 +230,6 @@ To make a copy or "fork" the original repository to view or make changes without
 ## Credits
 ---
 
-* I have taken ideas/ inspiration from peers and their design during the planning phase. Apart from that i have followed the love math walk through project to get an idea how the look and feel should be 
-
 * I have been watching some youtube videos like coding with nick to understand how a quiz website is generally designed 
 
 * I have also referred to w3schools (https://www.w3schools.com/), stackoverflow (https://stackoverflow.com/), coding ninja (https://www.codingninjas.com/) and coding artist (https://codingartistweb.com/), while working to sort the interactivity of various sections of the website 
