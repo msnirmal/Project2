@@ -236,7 +236,3 @@ To make a copy or "fork" the original repository to view or make changes without
 
 * I have also referred to w3schools (https://www.w3schools.com/), stackoverflow (https://stackoverflow.com/), coding ninja (https://www.codingninjas.com/) and coding artist (https://codingartistweb.com/), while working to sort the interactivity of various sections of the website 
 
-## Acknowledgements 
----
-
-Thanks to my mentor Harry Dhillon for the support and sharing his thoughts 
